@@ -1,0 +1,112 @@
+/** COMMON CSS STARTS HERE */
+:root{
+    --bg-color: white;
+    --textColor: black;
+}
+
+
+.darkmode {
+     --bg-color: #080811;
+    --textColor: white;
+    transition: 0.3s;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "arial";
+  background-color: var(--bg-color);
+  transition: s;
+  
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+/** COMMON CSS ENDS HERE */
+
+#wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#wrapper h2{
+   font-size: 60px;
+   margin: 20px;
+   color: var(--textColor);
+}
+#wrapper button{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    
+    border: none;
+}
+#wrapper button span{
+
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    font-size: 25px;
+}
+#wrapper button .sun{
+    background-color: rgb(255, 238, 0);
+}
+#wrapper button .moon{
+    background-color: #080811;
+    color: white;  
+}
+
+.cursor{
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--textColor);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  background-color: yellowgreen;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
